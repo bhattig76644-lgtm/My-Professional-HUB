@@ -314,3 +314,29 @@ footer {
         opacity: 1;
     }
 }
+.contact-form {
+    max-width: 500px;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 15px;
+    border: 1px solid #28516a;
+    border-radius: 10px;
+    background: #122a40;
+    color: white;
+    font-size: 16px;
+}
+
+.contact-form textarea {
+    min-height: 130px;
+    resize: vertical;
+}
+
+.contact-form button {
+    font-size: 16px;
+}
