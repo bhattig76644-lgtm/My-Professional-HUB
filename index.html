@@ -97,18 +97,32 @@
         </div>
     </div>
 </section>
-
 <section id="contact" class="section contact">
-    <h2>Let's Connect</h2>
-    <p>Have a question or want to connect? Contact me directly on WhatsApp.</p>
+    <h2>Contact Me</h2>
+    <p>Feel free to send me a message.</p>
+
+    <form class="contact-form" action="https://formsubmit.co/YOUR_EMAIL" method="POST">
+
+        <input type="text" name="name"
+        placeholder="Your Name" required>
+
+        <input type="email" name="email"
+        placeholder="Your Email" required>
+
+        <textarea name="message"
+        placeholder="Write Your Message" required></textarea>
+
+        <button type="submit" class="btn">
+            Send Message
+        </button>
+
+    </form>
 
     <a class="btn whatsapp"
-       href="https://wa.me/923227363081?text=Hello%20Safdar"
-       target="_blank">
-       Chat on WhatsApp
+    href="https://wa.me/923227363081"
+    target="_blank">
+        Chat on WhatsApp
     </a>
-
-    <p class="phone">0322 7363081</p>
 </section>
 
 <footer>
